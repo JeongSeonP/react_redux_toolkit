@@ -6,3 +6,5 @@ export const store = configureStore({
     counter: counterReducer,
   },
 });
+
+//thunk란? 특정작업을 나중에 할수 있도록 미루기 위해 함수형태로 감싼 것
